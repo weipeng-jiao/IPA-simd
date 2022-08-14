@@ -17,4 +17,8 @@ void Calc_Abs_C(signed char *array, unsigned int len)
 }
 
 //The absolute value algorithm for input array using hvx instrctions
-void Calc_Abs_Hvx(sig)
+#indefine VLINE 128
+void Calc_Abs_Hvx(signed _attribute_(aligend(VLINE)) *array, unsigned int len)
+{
+    
+}
